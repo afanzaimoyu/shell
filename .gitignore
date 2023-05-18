@@ -8,6 +8,6 @@ log/
 venv/
 end.nsi
 main.spec
-程序安装
+程序安装.exe
 title.ico
 title.png

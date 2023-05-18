@@ -1,17 +1,28 @@
 
 
-[toc]
+<!-- TOC -->
+* [概述](#概述)
+* [使用](#使用)
+* [chatGPT 分析报告](#chatgpt-分析报告)
+  * [connection.py](#connectionpy)
+  * [logger.py](#loggerpy)
+  * [main.py](#mainpy)
+  * [saved_info.py](#savedinfopy)
+  * [shell.py](#shellpy)
+  * [shell_ui.py](#shelluipy)
+  * [程序的整体功能和构架概括。](#程序的整体功能和构架概括)
+<!-- TOC -->
 
 # 概述
 - 本项目是基于 pyqt5 和 paramiko 设计的远程连接工具 ，类似finalshell(课程设计，差不多就行了--)    
 - 主要功能为 连接远程服务器， 上传文件、下载文件、列出远程路径下的文件、获取远程服务器上文件的内容、保存编辑后的文件内容到远程服务器、以及断开连接的功能 
 - 项目构造请看下面的分析报告
 # 使用
-- 打包好的文件
+- [打包好的文件,点我安装](https://github.com/afanzaimoyu/shell/releases/download/%E8%87%AA%E5%88%B6shell/default.exe)
 - 或者
   - 下载依赖`pip install requrements`
   - 在项目路径下启动 `python main.py`
-- ![](./img.png)
+- ![](img.png)
 
 
 
