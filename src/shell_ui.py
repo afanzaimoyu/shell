@@ -6,7 +6,7 @@
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtCore import QRunnable, QThreadPool, QObject, pyqtSignal
 from PyQt5.QtWidgets import QMessageBox, QMenu, QFileDialog, QInputDialog
-from shell import Ui_Form
+from src.shell import Ui_Form
 from connection import ConnectionManager
 from saved_info import SavedInfoManager
 from logger import get

@@ -4,7 +4,7 @@
 # Contact   :       f2095522823@gmail.com
 
 from PyQt5 import QtWidgets
-from shell_ui import Mainwindow
+from src.shell_ui import Mainwindow
 
 if __name__ == '__main__':
     import sys
